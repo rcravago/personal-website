@@ -1,0 +1,97 @@
+/* In permanent BETA */
+/*.permanent {*/
+     /*height: 200px;*/
+     /*width: 90px;*/
+     /*padding-top: 9%;*/
+     /*margin-left: 2%;*/
+     /*-webkit-transform-origin:80% 115%;*/
+/*}*/
+
+/*
+.permanent .char1 { -webkit-transform:rotate(0deg); }
+.permanent .char2 { -webkit-transform:rotate(0deg); }
+.permanent .char3 { -webkit-transform:rotate(0deg); }
+.permanent .char4 { -webkit-transform:rotate(6deg); }
+.permanent .char5 { -webkit-transform:rotate(12deg); }
+.permanent .char6 { -webkit-transform:rotate(18deg); }
+.permanent .char7 { -webkit-transform:rotate(21deg); }
+.permanent .char8 { -webkit-transform:rotate(24deg); }
+.permanent .char9 { -webkit-transform:rotate(27deg); }
+.permanent .char10 { -webkit-transform:rotate(30deg); }
+.permanent .char11 { -webkit-transform:rotate(33deg); }
+.permanent .char12 { -webkit-transform:rotate(36deg); } */
+
+/*.beta {
+     font-size: 1.3em;
+     font-family: 'Sue Ellen Francisco', cursive;
+     text-transform: uppercase;
+     position: absolute;
+     left: 26%;
+     top: 228px; */
+     /*width: 10px;
+     height: 200px;
+     -webkit-transform-origin:122% 32%;*/
+/*}*/
+
+/*.beta .char1 { -webkit-transform:rotate(5deg); }
+.beta .char2 { -webkit-transform:rotate(17deg); }
+.beta .char3 { -webkit-transform:rotate(29deg); }
+.beta .char4 { -webkit-transform:rotate(41deg); }
+*/
+
+/* My year of console.log("hello code"); */
+.year {
+     margin-top:  -10%;
+     margin-left: 25%;
+}
+.code {
+     margin-top: -35px;
+     margin-left: 10px;
+     font-size: .5em;
+     font-family: Courier New, Courier, monospace; 
+}
+
+/* IBM Women in Technology and SIDE Hustles */
+.ibm, .side, .hustle {
+     font-family:'Sue Ellen Francisco', cursive;
+}
+.ibm {
+     font-size: 1.7em;
+     margin-top: 70px;
+     margin-left: 11%;
+}
+.tech {
+     margin-left: 40%;
+     margin-top: -50px;
+     line-height: 90%;
+}
+.side {
+     font-size: 1.5em;
+     margin-top: 65%;
+     margin-left: 18%;
+     text-transform: uppercase;
+     transform: rotate(270deg);
+     transform-origin:top left;
+     -ms-transform: rotate(270deg); /* IE 9 */
+     -ms-transform-origin:top left; /* IE 9 */
+     -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+     -webkit-transform-origin:top left; /* Chrome, Safari, Opera */
+}
+.hustle {
+     font-size: 1.6em;
+     margin-top: -60%;
+     margin-left: 43%;
+}
+/* Language and Travel */
+.language { 
+     margin-top: -10%;
+     margin-left: 15%;
+}
+.travel {
+     margin-left: 45%;
+}
+/* photography */
+.photo {
+     margin-top: -5%;
+     margin-left: 28%;
+}

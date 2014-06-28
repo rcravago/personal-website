@@ -1,0 +1,92 @@
+body {
+	background-color: #e74c3c;
+}
+.hamburger {
+	float: left;
+	width: 10%;
+	margin: 1% 0 10% 2%;
+	/*background-color: red;*/
+}
+#photoBlog {
+	line-height: 100%;
+	font-size: 75px; 
+	text-align: center;
+	z-index: 99999999;
+	position: absolute;	
+	top: 22%;
+	left: 24%;
+
+	/*position: fixed;
+	left: 25%;
+	top: 15%;*/
+}
+a.dottedLine {
+	border-bottom: 2px dotted;
+	line-height: 0.8em;
+    /*margin-top: -40%;
+    margin-left: 70%;*/
+    display: inline-block;
+    width: 115px;
+}
+a:hover {
+	color:rgb(255,255,255);
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    padding: 5px;
+	/*color:rgb(193, 39, 45);*/
+}
+#instafeed {
+	width: 55%;
+	margin: 10px auto;
+	/*overflow: hidden;*/
+	
+	/* this controls how big images look */
+	zoom: 5;
+}
+#instafeed a {
+	opacity: 0.4;
+	float: left;
+	display: block;
+	padding: 1px;
+	margin-bottom: 10px;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+
+	/* this controls how much space each image gets */
+	width: 23px;
+	height: 20px;
+}
+#instafeed a:hover {
+	opacity: 1.0;
+}
+footer {
+	margin-top: 10%;
+	margin-left: -10%;
+}
+
+/* THIS CSS STYLE IS FOR 1 GIANT PIC WITH REDUCED OPACITY*/
+#bg {
+	width: 960px;
+	height: auto;
+    margin: auto;
+    clear: both;
+}
+#bg img {
+	width: 75%;
+	height: 75%;
+	opacity: 0.5;
+	margin-top: -19%;
+	margin-left: 12%;
+}
+#caption {
+	z-index: 99999999;
+	position: absolute;
+	top: 95%;
+	right: 23%;
+	font-family: 'Sue Ellen Francisco', cursive;	
+	font-size: 0.8em;
+}

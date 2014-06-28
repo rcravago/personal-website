@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+    	<!--Fonts-->
+    	<link href='http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco' rel='stylesheet' type='text/css'>
+	
+		<title>Roxanne Ravago</title>
+		
+		<!-- CSS links -->
+		<link rel="stylesheet" href="./CSS/normalize.css">
+		<link rel="stylesheet" href="./CSS/style.css">
+		<link rel="stylesheet" href="./CSS/jquery.sidr.light.css">
+		<link rel="stylesheet" href="./CSS/lettering.css">
+		<link rel="stylesheet" href="./CSS/aboutParallax.css">
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<!-- libraries -->
+	    <script type="text/javascript" src="js/sidr/jquery.sidr.min.js"></script>
+	    <script type="text/javascript" src="js/jquery.lettering-0.6.1.min.js"></script>
+	    <script type="text/javascript" src="js/scrollpath/lib/prefixfree.min.js"></script>
+	</head>
+
+	<body>
+
+  		<div id="main" role="main">
+  			<div class="hamburger">&#9776;</div>
+			<div class="sidr">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="code.html">My Code Year</a></li>
+					<li><a href="work.html">Current Work</a></li>
+					<li><a href="sideProject.html">Side Hustles</a></li>
+					<li><a href="langTravel.html">Language &amp Travel</a></li>
+					<li><a href="photo.html">Photography</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			
+		  	<!-- Section #1 / Flats -->
+			<section id="first" class="story" data-speed="8" data-type="background">    	
+				<div class="intro" data-type="sprite" data-offsetY="100" data-Xposition="50%" data-speed="-2"></div>		
+				<article>
+					<h1>Hello.</h1>
+					<h3>my name is Roxanne</h3>
+			    </article>
+			</section>
+
+			<!-- Section #2 / Barefoot -->
+			<section id="second" class="story" data-speed="4" data-type="background">
+				<article>
+					<h2>about me</h2>
+				    	<p>In this section we are sliding the background at a different speed to the rest of the page.</p>
+				    	<p>As this text box is scrolling at the same speed as the page, and faster than the background, it creates this lovely parallax effect.</p>
+				    	<p>You can find all the HTML, CSS and the all important JavaScript files over at <a href="https://github.com/richardshepherd/Parallax-Scrolling">GitHub</a> - so why don't you drop by for some hardcore forking action?</p>
+				    	<p>Backgrounds for this article were taken from the May/June 2011 Smashing Magazine Desktop backgrounds.</p>	
+				    	<p>Head back to <a href="http://coding.smashingmagazine.com/2011/07/12/behind-the-scenes-of-nike-better-world/">Smashing Magazine</a>, or hop on over to <a href="http://richardshepherd.com">RichardShepherd.com</a>.</p>		
+				</article>
+			</section>
+			
+			<!-- Section #3 / Mocassins -->
+			<section id="theend" class="story" data-speed="8" data-type="background" data-offsetY="250">    	
+				<div class="byebye" data-type="sprite" data-offsetY="-1600" data-Xposition="50%" data-speed="-2">
+				</div>	
+			</section>
+
+  		</div>
+		
+		<!-- jQuery plugins -->
+	    <script type="text/javascript" src="js/scrollpath/jquery.scrollpath.js"></script>
+	    
+	    <!-- JavaScript -->
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/aboutParallax.js"></script>
+
+		<!--[if lt IE 7 ]>
+		<script src="js/libs/dd_belatedpng.js"></script>
+		<script>DD_belatedPNG.fix("img, .png_bg");
+		<![endif]-->
+
+	</body>
+</html>

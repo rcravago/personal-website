@@ -1,0 +1,91 @@
+/* Quovolver Demo Styles */
+
+/*
+ |	All required styles for the effect
+ |	are labeled with this *required*
+*/
+
+body { 
+	font-size: 1.5em; 
+	line-height: 18px; 
+	color: #373737; 
+}
+a { 
+	text-decoration: none; 
+	color: #52b7d4; 
+}
+a:hover { 
+	color: #ea9941; 
+}
+/*#header, #footer { padding: 20px 0; }*/
+#wrapper { 
+	width: 475px; 
+	margin: 0 auto; 
+}
+#description { 
+	margin-bottom: 40px; 
+	padding-bottom: 10px; 
+}
+h1, h2 { 
+	font-weight: normal; 
+}
+h1 { 
+	font-size: 42px; 
+	color: #1f1f1f; 
+	margin-left: -60px; 
+}
+h2 { 
+	font-size: 12px; 
+}
+#description p { 
+	margin-bottom: 10px; 
+}
+/*#footer { font-size: 11px; line-height: 16px; }
+#footer a { color: #373737; border-bottom: 1px solid #f2f2f2; }
+#footer a:hover { color: #ea9941; border-color: #ea9941; }*/	
+/*blockquote p { 
+	margin-bottom: 10px; 
+	font-style: italic; 
+}*/
+blockquote cite { 
+	font-style: normal; 
+	display: block; 
+	/*text-align: right; */
+	margin-left: 30%;
+	margin-top: -10%;
+	text-transform: uppercase; 
+	font-size: 10px; 
+	font-weight: bold; 
+	letter-spacing: 1px; 
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+/*
+ |	Setting the width for the blockquotes is required
+ |	to accurately adjust it's contianer
+*/
+
+blockquote {
+	position: absolute;
+	left: 112px;
+	bottom: 100px;
+	font-size: 1.5em;
+	font-weight: bolder;
+	line-height: 30px;
+	width: 325px; /* required */
+	margin: 0 auto;
+}
+	
+/*
+ |	The #quote_wrap div is created
+ |	by Quovolver to wrap the quotes
+*/
+
+/*#quote_wrap { 
+	background: #fbffec url(
+	http://sandbox.sebnitu.com/jquery/quovolver/demo/images/quote-mark.png
+	) no-repeat 20px 20px;
+	margin: 40px 0; 
+	padding: 10px; 
+	border: 1px solid #edffaf;
+	}*/

@@ -1,0 +1,218 @@
+/* =========================================
+  	Scroll bar styles for jQuery Scroll Path
+  	      (http://joelb.me/scrollpath)
+   ========================================= */
+.sp-scroll-bar {
+	position: fixed;
+	z-index: 9999;
+	right: 0;
+	top: 5%;
+	width: 10px;
+	height: 90%;
+	border-radius: 5px;
+}
+.sp-scroll-bar:hover {
+	background: white;
+	background: rgba(255,255,255, 0.1);
+}
+.sp-scroll-bar .sp-scroll-handle {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	border-radius: inherit;
+	background: gray;
+	background: rgba(0,0,0,0.7);
+}
+.sp-scroll-bar .sp-scroll-handle:hover {
+	background: black;
+}
+
+/* BASE STYLES */
+.hamburger {
+	margin-top: 1%;
+	font-size: 1.5em;
+}
+body {
+	background: url(../images/DSC_0062.JPG) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	color: #000;
+	font-size: 20px;
+	overflow: hidden;
+	/*text-shadow: 
+		1px 1px 0 transparent,
+		2px 2px 0 #101010;*/
+}
+h1 {
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 1.1em;
+	margin-top: -20%;
+	/*text-shadow: 
+		1px 1px 0 transparent,
+		2px 2px 0 #101010;*/
+}
+a, a:visited {
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px dotted;
+	transition: color 0.2s;
+}
+a:hover {
+	color: #AAA;
+}
+a:active {
+	color: lightblue;
+}
+
+/* CSS FOR SCROLLPATH INTRO */
+.big {
+	display: block;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+	/*text-shadow: 
+		2px 2px 0 transparent,
+		4px 4px 0 #101010;*/
+}
+#wrapper div {
+	position: absolute;
+}
+.settings, nav {
+	position: fixed;
+	z-index: 9999999;
+	bottom: 0;
+	background: rgba(10,10,10, 0.5);
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-weight: normal;
+	font-size: 1em;
+}
+.settings {
+	right: 0;
+	padding: 5px 10px;
+	border-radius: 10px 0 0 0;
+}
+.settings a {
+	border: none;
+}
+nav {
+	left: 0;
+	bottom: 20px;
+	border-radius: 0 10px 0 0;
+	height: 50px;
+}
+nav ul {
+	padding: 0;
+}
+nav li {
+	float: left;
+}
+nav a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	text-align: center;
+	transition: 0.25s;
+}
+nav li:last-child a {
+	border-radius: 0 10px 0 0;
+}
+
+nav a:hover {
+	background: rgba(15,15,15, 0.5);
+}
+.sp-canvas {
+	display: none;
+	width: 100%;
+}
+.arrow {
+	position: relative;
+	display: inline-block;
+}
+.hello { 
+	width: 800px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.hello .arrow {
+	font-size: 20px;
+	animation: point-down 0.5s alternate infinite;
+}
+.non-linear {
+	top: 740px;
+	left: 180px;
+	width: 440px;
+	transform: rotate(-90deg) translateY(2.5em);
+}
+.non-linear .upside-down {
+	font-size: 42px;
+	text-align: right;
+	transform: rotate(180deg) translateY(3em);
+}
+.possible {
+	top: 1510px;
+	left: 430px;
+	width: 400px;
+}
+.language {
+	top: 1540px;
+	left: 1600px;
+	width: 400px;
+}
+
+.curious {
+	left: 2185px;
+	top: 660px;
+	width: 460px;
+}
+.creativity {
+	left: 2200px;
+	top: -800px;
+	width: 400px;
+	transform: rotate(90deg) translateX(50px);
+}
+.character {
+	width: 475px;
+	left: 1100px;
+	top: -950px;
+	transform: rotate(90deg) translateX(50px);
+}
+.character .big {
+	font-size: 40px;
+}
+.highlight {
+	animation: highlight 0.2s alternate 6 ;
+}
+/*#container {
+	display: none;
+}*/
+
+/* CSS FOR STATIC PAGE AFTER INTRO */
+
+/*#container .visible {
+	display: inline;
+}*/
+
+
+
+/* OTHER CSS */
+@keyframes point-down {
+	from {
+		top: 0;
+	}
+	to {
+		top: 5px;
+	}
+}
+
+@keyframes highlight {
+	to {
+		background: lightblue;
+	}
+}

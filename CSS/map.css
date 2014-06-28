@@ -1,0 +1,24 @@
+#map {
+     margin: 0;
+     height: 1000px;
+     width: 100%;
+}
+.hamburger {
+	position: absolute;
+	top: -5%;
+    left: 6%; 
+    z-index: 1;
+/*    width: 35px;
+    border: 1px solid;
+    border-radius:6px;*/
+}
+footer {
+    position: absolute;
+	line-height: 30px;
+    margin-top: -8%;
+    margin-left: 25%;
+    padding: 0;
+    clear: none;
+    z-index: 1;
+}
+

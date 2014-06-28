@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+    	<!--Fonts-->
+    	<link href='http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco' rel='stylesheet' type='text/css'>
+	
+		<title>Roxanne Ravago</title>
+		
+		<!-- CSS links -->
+		<link rel="stylesheet" href="./CSS/normalize.css">
+		<link rel="stylesheet" href="./CSS/style.css">
+		<link rel="stylesheet" href="./CSS/jquery.sidr.light.css">
+		<link rel="stylesheet" href="./CSS/photo.css">
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<!-- libraries -->
+	    <script type="text/javascript" src="js/sidr/jquery.sidr.min.js"></script>
+
+	</head>
+
+	<body>
+		<div class="hamburger">&#9776;</div>
+		<div class="sidr">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="code.html">My Code Year</a></li>
+				<li><a href="work.html">Current Work</a></li>
+				<li><a href="sideProject.html">Side Hustles</a></li>
+				<li><a href="langTravel.html">Language &amp Travel</a></li>
+				<li><a href="photo.html">Photography</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div id="photoBlog">
+			<p>Check out my blog, <br>la vida en foto <a class="dottedLine" href="http://lavidaenfoto.wordpress.com/" target="_blank">here.</a></p>
+		</div>
+		
+		<div id="instafeed">
+		</div>
+		
+		<footer>
+			&copy; made from scratch with </div><img src="images/heart.svg"> by Roxanne Ravago
+		</footer>
+
+		<!-- JS -->
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/instafeed.min.js"></script>
+	    <!-- <script type="text/javascript" src="js/photo.js"></script> -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var feed = new Instafeed({
+					// get: 'user',
+					get: 'tagged',
+					userId: 9403149,
+				    accessToken: '9403149.467ede5.f46e1ee2aa404dcfbb9732997b0c9702',
+					link: 'true',
+					clientId: '639bc7756ecf456582bf662fdfcf441d',
+					limit: '20'
+	    		});
+	    		feed.run();
+
+	    	// THIS CODE IS FOR ONE GIANT PHOTO WITH TEMPLATE THAT'S STYLED ON CSS
+				// var feed = new Instafeed({
+			 //   		get: 'user',
+			 //        userId: 9403149,
+			 //        accessToken: '9403149.467ede5.f46e1ee2aa404dcfbb9732997b0c9702',
+			 //        sortby: 'random',
+			 //        resolution: 'standard_resolution',
+			 //        links: 'false',
+			 //        limit: '10',
+			 //        template: '<div id="caption">{{caption}} <br>{{likes}} likes on my <a href="http://instagram.com/rcravago" class="link">instagram</a></div><div id="bg"><img src="{{image}}" /></div>',
+			 //  		mock: true,
+				//   	custom: {
+				// 	    images: [],
+				// 	    currentImage: 0,
+				// 	    showImage: function () {
+				// 	      var result, image;
+				// 	      image = this.options.custom.images[this.options.custom.currentImage];
+				// 	      result = this._makeTemplate(this.options.template, {
+				// 	        model: image,
+				// 	        id: image.id,
+				// 	        link: image.link,
+				// 	        image: image.images[this.options.resolution].url,
+				// 	        caption: this._getObjectProperty(image, 'caption.text'),
+				// 	        likes: image.likes.count,
+				// 	        comments: image.comments.count,
+				// 	        location: this._getObjectProperty(image, 'location.name')
+				//     	});
+    //   					$("#instafeed").html(result);
+    // 					}
+  		// 			},
+  		// 			success: function (data) {
+				//     	this.options.custom.images = data.data; 
+				//     	this.options.custom.showImage.call(this);
+				//   	}
+				// });
+				// feed.run();
+				
+
+			});
+
+		</script>
+
+	</body>
+
+</html>
